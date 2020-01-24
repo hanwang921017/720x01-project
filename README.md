@@ -1,5 +1,6 @@
 # 720x01-project
-ECE 720X01 project, developer recommendation with social network based method in GitHub
+ECE 720X01 project, developer recommendation with social network based method on GitHub
+The goal of this project is to find out some suitable developers for a new project in my social network. If I have a new project to do, and I try to find some developers who have expertise in this field. Firstly, social network means how people are connected with each other. In GitHub, we will fork each other’s repositories. If you follow one of my repositories, you will be a user in my first-layer social network. And if a user follows one your repository and do not follow any my repository, this user will be in my second-layer social network. Based on this idea, we can build our own social network on GitHub. Next, we collect all the titles and descriptions of users’ repositories. And then based on some text similarity analysis methods to obtain their similarities with our new project. Except this, another factor we should take into account is the contribution ratio of each user on their own repositories. Usually, one repository is finished by more than one developer. So, the contribution ratio will be different for different contributors. Lastly, by considering the similarities and contribution ratios, we can find out the suitable developers for our new project.
 ## Python code
 you can run .ipynb file if have jupyter notebook in your computer.Otherwise, you can have a look at the .py file instead.
 ## Geiph file
